@@ -1,5 +1,5 @@
 # Electricity-Bill-Generator
-Electricity Bill Generator Website
+Electricity Bill Generator Website Project with PHP
 
 Steps to run the project:
 
