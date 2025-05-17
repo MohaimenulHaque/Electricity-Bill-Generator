@@ -1,0 +1,152 @@
+.form-container {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+
+header.double {
+   outline-style: double;
+}
+
+.align-center {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50 vh; 
+  margin: 0;
+  padding: 0; 
+  background-color: #f4f4f4;
+  background-image: url('topim.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  
+}
+
+
+.consumers-copy {
+   position: absolute;
+  top: 0; 
+  right: 0; 
+  margin: 20px; 
+  font-weight: bold;
+}
+
+
+
+.company-info {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: centre;
+ outline-color:black;
+ outline-style: double;
+
+ 
+}
+.logo {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.logo img {
+  max-width: 100px; 
+}
+
+.text-info {
+  flex: 1;
+}
+
+.company-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.division {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.motto {
+  font-size: 12px;
+  color: #555;
+}
+
+ 
+
+body {
+
+   font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+   
+   background-position: center center;
+    margin: 0px auto;
+   
+
+  }
+    
+   
+  form {
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+     width: 30%;
+
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+ 
+  border-radius: 0px 0px 10px 10px;
+    margin: 0px auto;
+ 
+  }
+
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  div {
+    margin-bottom: 15px;
+  }
+
+  .input-group {
+  margin: 10px 0px 10px 0px;
+ 
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+  color: black;
+  
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  color: black;
+}
+  
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: linear-gradient(90deg,        rgba(2,0,36,1) 0%, rgba(48,48,61,1) 35%,    rgba(0,212,255,1) 100%);
+
+ border: none;
+  border-radius: 5px;
+}
+  
