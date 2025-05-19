@@ -9,3 +9,8 @@ Steps to run the project:
 4) run the xampp server 
 5) start the project ... " localhost/Electricity-Bill-Generator
 6) for admin part .... " localhost/Electricity-Bill-Generator/admin_page.php
+
+
+Admin Login:
+Username:rion
+Password: 123
