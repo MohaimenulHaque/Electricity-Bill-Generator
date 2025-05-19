@@ -1,0 +1,59 @@
+
+Body{
+    margin: 0;
+  }
+  table{
+      border: solid black 2px;
+      border-collapse: collapse;
+      margin: auto;
+      margin-top: 20px;
+      
+      
+  }
+  #Tablehead{
+      margin: auto;
+      height: 50px;
+      font-size: 50px;
+      color: aliceblue;
+      background: rgba(122, 122, 122, 0.663);
+      
+  }
+  th{
+      border: solid rgb(0, 0, 0) 2px;
+      width:125px ;
+      height: 30px;
+      background: rgb(4, 139, 144);
+      color: rgb(255, 255, 255);
+      min-width: 80px;
+      
+  }
+  td{
+      text-align: center;
+      border: solid black 2px;
+      height: 20px;
+      
+  }
+  
+  
+  .tableBody{
+    background: #cacacaaa;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    font-weight: bold;
+  }
+
+  .LINK{
+    margin-top: auto;
+    font-weight: bolder;
+    color: #000000;
+    font-size: larger;
+    background: #ffffff;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+  }
+

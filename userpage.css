@@ -1,0 +1,125 @@
+/* Basic Styling: Sets the default font and removes default margins and paddings in need */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('homeh2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+
+    /* position: relative; */
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Header Image Style: where the image will be shown:center or side ; adds a top margin */
+.header-image {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logo img {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    filter: contrast(180%);
+}
+
+
+.header {
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-image: url('topim.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    /* color: #0095ff; */
+    
+    
+}
+
+
+/* Content Section Style: Uses Flexbox for layout, centers content, and sets background color */
+.content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0;
+    width: 1000px;
+    /* background: #f0f0f0; */
+    /* margin: 0 auto; */
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+form{
+    display: flex;
+}
+
+/* Individual Option Style: Sets background, padding, border radius, shadow, margin, and width */
+.option {
+    background: #ffffff89;
+    /* padding: 15px; */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    width: 250px;
+    height: 150px;
+    position: relative;
+
+}
+
+/* for the desco line */
+h1 {
+    color: rgb(0, 140, 255);
+    text-align: center;
+}
+
+/* Button Style: Sets background color, border properties, font size, and hover effect */
+.button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    /* display: inline-block; */
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Hover Effect for Buttons: Changes background color on mouse over */
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+.register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+    margin-top: 400px;
+
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+}
+
+.register-link pa:hover {
+    text-decoration: underline;
+}

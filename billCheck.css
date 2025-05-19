@@ -1,0 +1,96 @@
+.a4 {
+    width: 210mm;
+    height: 170mm;
+    /* background: #c0c0c0; */
+    margin: 0 auto;
+    border: 1px solid black;
+
+    position: relative;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.head img {
+    height: 70px;
+    width: 90px;
+    margin: 0 auto;
+}
+
+.head h2 {
+    color: red;
+    font-size: 15px;
+}
+
+.head h1 {
+    color: steelblue;
+    font-size: 15px;
+}
+
+table {
+    width: 100%;
+    height: 200px;
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px black solid;
+
+}
+
+.desco {
+    height: auto;
+    display: flex;
+}
+
+.desco img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.descoInfo h3 {
+    font-size: 15px;
+}
+
+.descoInfo2 {
+    width: 300px;
+}
+
+.info {
+    height: 70px;
+}
+
+.info2 {
+    height: 30px;
+}
+
+.table2 tr td {
+    margin: 0;
+}
+
+.note {
+    font-size: 10px;
+    color: red;
+    text-align: center;
+}
+
+
+
+.printBTN{
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%,-100%);
+    
+}
+
+@media print {
+    /* styles to hide elements on the page while printing */
+    #print{
+        display: none;
+    }
+}

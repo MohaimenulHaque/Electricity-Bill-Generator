@@ -1,0 +1,44 @@
+<?php
+// Get the current month and date
+$currentMonth = date('F, Y'); 
+$issueDate = date('Y-m-d');   
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DESCO Electricity Bill</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+<link rel="stylesheet" href="styleb.css">
+</head>
+<body>
+
+<!-- Your form HTML -->
+<form action="submit-bill.php" method="post" class="form-container">
+  <!-- ... (rest of your form fields) -->
+
+  <button id="downloadBtn" class="btn">Download PDF</button>
+</form>
+
+<!-- JavaScript to handle PDF download -->
+<script>
+document.getElementById('downloadBtn').addEventListener('click', function() {
+  const tariff = document.querySelector('input[name="tariff"]').value;
+  const zoneBlock = document.querySelector('input[name="zoneBlock"]').value;
+  // ... (repeat for other fields)
+
+  const { jsPDF } = window.jspdf;
+  const pdf = new jsPDF();
+
+  pdf.text('Form Data', 10, 10);
+  pdf.text(`Tariff: ${tariff}`, 10, 20);
+  pdf.text(`Zone/Block: ${zoneBlock}`, 10, 30);
+  // ... (repeat for other fields)
+
+  pdf.save('form.pdf');
+});
+</script>
+
+</body>
+</html>
